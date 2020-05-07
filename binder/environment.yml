@@ -4,9 +4,6 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - atoti=0.3.1
-  - jupyter-server-proxy
-  - jupyterlab-atoti=0.3.1
-  - nodejs
+  - atoti
   - openjdk=11
   - python
