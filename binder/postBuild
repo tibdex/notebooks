@@ -1,8 +1,8 @@
-#!/bin/bash
-set -euo pipefail
+set -ex
 
 # Rebuild JupyterLab to include the Atoti extension
-# jupyter lab build --dev-build True --minimize False --debug
+jupyter lab build --debug
+jupyter lab clean
 
 # Enable Jupyter Server Proxy
 jupyter serverextension enable --sys-prefix jupyterlab
