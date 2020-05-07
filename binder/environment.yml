@@ -1,9 +1,12 @@
-name: atoti
 channels:
-  - https://conda.atoti.io
+  # - https://conda.atoti.io
   - conda-forge
   - defaults
 dependencies:
-  - atoti
-  - openjdk=11
-  - python
+  # - atoti=0.3.1
+  - jupyter-server-proxy
+  - jupyterlab=2
+  # - jupyterlab-atoti=0.3.1
+  # - nodejs
+  # - openjdk
+  # - python
